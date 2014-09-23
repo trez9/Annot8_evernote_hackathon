@@ -1,0 +1,87 @@
+body {
+	background-image:url("static/seamless_paper_texture.png");
+	font-family:"helveticaNeue-Light","Helvetica","arial"
+}
+
+
+#header {
+	background:#5E5E5D;
+	color:white;
+	padding:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius:10px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+img {
+	width: 50px;
+	display: inline;
+}
+
+iframe {
+	margin-top:10px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+#synced {
+	padding:10px;
+	font-style:italic;
+}
+/*
+Evernote Light Green = #88E166
+Evernote Dark Green = #118013
+Evernote Gray = #5E5E5D
+ */
+
+[contenteditable]:focus {
+	outline: 0px solid transparent;
+}
+
+.notebook {
+	width:80%;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+}
+
+.notebook:hover {
+	background:#88E166;
+}
+
+#noteTitle {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#noteContent {
+	padding-top:10px;
+	padding-bottom:10px;
+	min-height:300px;
+}
+
+#sidebar {
+	background:#5E5E5D;
+	color:white;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius:10px;
+	min-height:300px;
+	box-shadow: 0px 0px 10px #888888;
+	font-size: 14px;
+	text-align: center;
+}
+
+#textArea {
+	background:white;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius:10px;
+	min-height:300px;
+	box-shadow: 0px 0px 10px #888888;
+}
